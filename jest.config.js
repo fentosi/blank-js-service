@@ -10,5 +10,9 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/'],
   transformIgnorePatterns: ['node_modules/'],
   clearMocks: true,
-  restoreMocks: true
+  restoreMocks: true,
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname'
+  ],
 };
