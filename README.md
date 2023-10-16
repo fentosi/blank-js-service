@@ -1,2 +1,11 @@
 # blank-js-service
-Blank JS service
+A blank JS service
+## Setup
+
+```
+nvm use
+npm i
+```
+
+## Test
+`npm run test`
