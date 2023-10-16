@@ -1,5 +1,5 @@
 export const main = () => {
-    console.log('ready');
+  console.log('ready');
 }
 
 main();

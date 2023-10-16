@@ -1,11 +1,11 @@
-import {main} from "./index";
+import { main } from './index';
 
 describe('Main', () => {
-    it('should log', () => {
-        const spy = jest.spyOn(console, 'log');
+  it('should log', () => {
+    const spy = jest.spyOn(console, 'log');
 
-        main()
+    main()
 
-        expect(spy).toHaveBeenCalledWith('ready')
-    });
+    expect(spy).toHaveBeenCalledWith('ready')
+  });
 })
