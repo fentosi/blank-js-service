@@ -8,7 +8,7 @@
     "lint:fix": "eslint src --fix",
     "test:once": "jest --runInBand",
     "test:watch": "npm run test:once -- --watchAll",
-    "start-dev": "node server/index.js"
+    "start-dev": "nodemon"
   },
   "author": "Adam Fentosi",
   "license": "ISC",
