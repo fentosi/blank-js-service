@@ -4,8 +4,8 @@
   "description": "Blank JS Service",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "lint": "eslint server tests",
+    "lint:fix": "eslint server tests --fix",
     "test:once": "jest --runInBand",
     "test:watch": "npm run test:once -- --watchAll",
     "start-dev": "nodemon"
