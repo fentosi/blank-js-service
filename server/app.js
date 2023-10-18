@@ -1,8 +1,8 @@
-const Koa = require("koa");
-const bodyparser = require("koa-bodyparser");
-const cors = require("@koa/cors");
-const Router = require("koa-router");
-const healthcheck = require("./endpoints/healthcheck");
+const Koa = require('koa');
+const bodyparser = require('koa-bodyparser');
+const cors = require('@koa/cors');
+const Router = require('koa-router');
+const healthcheck = require('./endpoints/healthcheck');
 
 const createApp = () => {
   const app = new Koa();
