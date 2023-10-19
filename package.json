@@ -8,7 +8,8 @@
     "lint:fix": "eslint server tests --fix",
     "test:once": "jest --runInBand",
     "test:watch": "npm run test:once -- --watchAll",
-    "start-dev": "nodemon"
+    "start-dev": "nodemon",
+    "docker": "docker-compose up"
   },
   "author": "Adam Fentosi",
   "license": "ISC",
